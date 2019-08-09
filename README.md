@@ -2,7 +2,7 @@
 Exemplo de uso do (Hypermedia as the Engine of Application State) HATEOAS.
 
 ##### http://localhost:8080/order
-Devolve uma lista com todos os pedidos e seus itens e respectivos links.
+Devolve uma lista com todos os pedidos e seus itens, cada um com seus respectivos links.
 ````
 {
     "_embedded": {
